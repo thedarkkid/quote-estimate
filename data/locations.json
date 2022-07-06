@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ikeja",
+    "price": 200
+  },
+  {
+    "name": "Abuja",
+    "price": 250
+  },
+  {
+    "name": "Port Harcourt",
+    "price": 150
+  }
+]

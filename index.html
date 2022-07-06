@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<form action="">
+    <h3>Estimated Quote Calculator</h3>
+    <form action="">
+        <div class="form-row">
+            <label for="city"></label>
+            <select id="city">
+                <option value="" selected>City</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="parcel_type"></label>
+            <select id="parcel_type">
+                <option value="" selected>Parcel Type</option>
+            </select>
+        </div>
+        <h4>Item Weight</h4>
+        <div class="radio-group">
+            <input type="radio" id="above_25" name="weight" value="4.5">
+            <label for="above_25">Above 25kg</label><br>
+            <input type="radio" id="16_24" name="weight" value="3.5">
+            <label for="16_24">16kg - 24kg</label><br>
+            <input type="radio" id="6_15" name="weight" value="2.5">
+            <label for="6_15">6kg - 15kg</label><br>
+            <input type="radio" id="1_5" name="weight" value="1.5">
+            <label for="1_5">1kg - 5kg</label><br>
+            <input type="radio" id="below_1" name="weight" value="0.8">
+            <label for="below_1">Below 1kg</label><br>
+        </div>
+        <p>Your estimated price is <span class="price_result"></span></p>
+    </form>
+</form>
+</body>
+</html>
