@@ -4,7 +4,7 @@ This is a simple project to calculate the price of a parcel
 delivery based on location, parcel type and parcel weight.
 It, has no css, for use the css should be modified to fit taste.
 
-<b>NB: *NO CLASS NAMES SHOULD BE CHANGED* </b>
+<b>NB: *NO CLASS/ID NAMES SHOULD BE CHANGED* </b>
 *as that could mess with the selectors in the script file.*
 
 ### Adding Locations
